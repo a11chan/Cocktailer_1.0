@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { height:100%; padding-bottom:50px; } /* 박스의 height:100%적용 가능하게 함 */
+a, a:hover, a:active { text-decoration:none; }
+ul, ol { list-style:none; }
+.clear { clear:both; }

@@ -1,0 +1,632 @@
+@charset "utf-8";
+/*///// Flavors Range /////*/
+@media screen and (min-width: 1450px) {
+  .tb,
+  .sm {
+    display: none;
+  }
+
+  /*///// banner /////*/
+  .fv-bn {
+    width: 100%;
+    height: 580px;
+    background: url(../imgs/bn.jpg) center;
+    background-size: cover;
+  }
+  .fv-bn h2 {
+    padding-top: 280px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 80px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: -moz-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /*///// subtitle /////*/
+  .bn-txt > h3 {
+    font-family: "Gowun Batang", serif;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+  }
+  .bn-txt > p {
+    padding-top: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /*///// flexSlider /////*/
+  .fv-container {
+    margin: 120px 0;
+  }
+  .fv-info1 {
+    position: relative;
+    height: 350px;
+    color: #fff;
+    background: url(../imgs/lemon.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info2 {
+    position: relative;
+    height: 350px;
+    color: #fff;
+    background: url(../imgs/lime.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info3 {
+    position: relative;
+    height: 350px;
+    color: #fff;
+    background: url(../imgs/coconut.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info-txt {
+    position: absolute;
+    left: 50%;
+    top: 95px;
+  }
+  .fv-info-txt h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  .fv-info-txt h4 {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .fv-info-txt > p {
+    padding-top: 20px;
+    width: 550px;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .fv-wrap {
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+  }
+  .fv-wrap .rum {
+    position: absolute;
+    left: 200px;
+    top: -250px;
+    width: 219px;
+    height: 850px;
+  }
+  .fv-wrap .bg1 {
+    background: url(../imgs/slide-rum1.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg2 {
+    background: url(../imgs/slide-rum2.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg3 {
+    background: url(../imgs/slide-rum3.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .fv-wrap .right {
+    position: absolute;
+    right: 130px;
+    top: 50px;
+    width: 600px;
+    height: 540px;
+  }
+
+  .fv-wrap .right > p {
+    margin: 0 0 35px 30px;
+    text-align: left;
+  }
+
+  .fv-wrap .right .fv-element {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 540px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .fv-wrap .right .fv-element li {
+    width: 100px;
+    height: 100px;
+    margin: 360px 0 50px 30px;
+  }
+
+  .fv-wrap .right .ingred {
+    position: absolute;
+    top: 520px;
+    left: 80px;
+    text-transform: uppercase;
+  }
+
+  /* ul.flex-direction-nav { position: relative; }
+  ul.flex-direction-nav li { position: absolute; }
+
+  ul.flex-direction-nav li.flex-nav-prev {
+    right: 50%; top: -610px; 
+    padding-left: 560px;
+  }
+  ul.flex-direction-nav li.flex-nav-next { left: 47%; top: -610px; }
+
+  ol.flex-control-nav.flex-control-paging { position: relative; }
+  ol.flex-control-nav.flex-control-paging li { position: absolute; }
+  ol.flex-control-nav.flex-control-paging li:first-child {
+    left: 67%; top: -100px;
+    margin-left: -368px;
+  }
+  ol.flex-control-nav.flex-control-paging li:nth-child(2) {
+    left: 67%; top: -100px;
+    margin-left: -328px;
+  }
+  ol.flex-control-nav.flex-control-paging li:last-child {
+    left: 67%; top: -100px;
+    margin-left: -288px;
+  } */
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1449px) {
+  .tb,
+  .sm {
+    display: none;
+  }
+
+  /*///// banner /////*/
+  .fv-bn {
+    width: 100%;
+    height: 580px;
+    background: url(../imgs/bn.jpg) center;
+    background-size: cover;
+  }
+  .fv-bn h2 {
+    padding-top: 280px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 80px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: -moz-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /*///// subtitle /////*/
+
+  .bn-txt > h3 {
+    font-family: "Gowun Batang", serif;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+  }
+  .bn-txt > p {
+    padding-top: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /*///// flexSlider /////*/
+  .fv-container {
+    margin: 120px 0;
+  }
+  .fv-info1 {
+    position: relative;
+    height: 350px;
+    color: #fff;
+    background: url(../imgs/lemon.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info2 {
+    position: relative;
+    height: 350px;
+    color: #fff;
+    background: url(../imgs/lime.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info3 {
+    position: relative;
+    height: 350px;
+    color: #fff;
+    background: url(../imgs/coconut.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info-txt {
+    position: absolute;
+    left: 50%;
+    top: 95px;
+  }
+  .fv-info-txt h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  .fv-info-txt h4 {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .fv-info-txt > p {
+    float: left;
+    padding-top: 20px;
+    width: 80%;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .fv-wrap {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+  }
+  .fv-wrap .rum {
+    position: absolute;
+    left: 15%;
+    top: -250px;
+    width: 219px;
+    height: 850px;
+  }
+  .fv-wrap .bg1 {
+    background: url(../imgs/slide-rum1.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg2 {
+    background: url(../imgs/slide-rum2.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg3 {
+    background: url(../imgs/slide-rum3.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .fv-wrap .right {
+    position: absolute;
+    left: 48%;
+    top: 50px;
+    width: 100%;
+    height: 540px;
+  }
+
+  .fv-wrap .right > p {
+    width: 40%;
+    margin: 0 0 35px 30px;
+    text-align: left;
+  }
+
+  .fv-wrap .right .fv-element {
+    position: absolute;
+    right: 100%;
+    top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .fv-wrap .right .fv-element li {
+    width: 90px;
+    height: 90px;
+    margin: 360px 0 50px 30px;
+  }
+
+  .fv-wrap .right .ingred {
+    position: absolute;
+    top: 520px;
+    left: 104%;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 660px) and (max-width: 1049px) {
+  .dt,
+  .sm {
+    display: none;
+  }
+
+  /*///// banner /////*/
+  .fv-bn {
+    width: 100%;
+    height: 580px;
+    background: url(../imgs/bn.jpg) center;
+    background-size: cover;
+  }
+  .fv-bn h2 {
+    margin: 0 auto;
+    padding-top: 230px;
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    text-transform: uppercase;
+
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: -moz-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /*///// subtitle /////*/
+  .bn-txt {
+    padding: 0;
+  }
+  .bn-txt > h3 {
+    font-family: "Gowun Batang", serif;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+  }
+  .bn-txt > p {
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+  }
+
+  /*///// flexSlider /////*/
+  .fv-container {
+    margin: 120px 0;
+  }
+  .fv-info1 {
+    height: 250px;
+    color: #fff;
+    background: url(../imgs/lemon.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info2 {
+    height: 250px;
+    color: #fff;
+    background: url(../imgs/lime.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info3 {
+    height: 250px;
+    color: #fff;
+    background: url(../imgs/coconut.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info-txt {
+    padding-top: 55px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .fv-info-txt h5 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .fv-info-txt h4 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .fv-info-txt > p {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .fv-wrap {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+  }
+  .fv-wrap .rum {
+    position: absolute;
+    left: 15%;
+    top: 50px;
+    width: 156px;
+    height: 600px;
+  }
+  .fv-wrap .bg1 {
+    background: url(../imgs/slide-rum1.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg2 {
+    background: url(../imgs/slide-rum2.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg3 {
+    background: url(../imgs/slide-rum3.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .fv-wrap .right {
+    position: absolute;
+    left: 48%;
+    top: 50px;
+    width: 100%;
+    height: 540px;
+  }
+
+  .fv-wrap .right > p {
+    width: 40%;
+    margin: 50px 0 35px 30px;
+    text-align: left;
+  }
+
+  .fv-wrap .right .fv-element {
+    position: absolute;
+    left: 100%;
+    top: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fv-wrap .right .fv-element li {
+    width: 80px;
+    height: 80px;
+    margin: 370px auto;
+    padding: 0 10px 10px;
+  }
+
+  .fv-wrap .right .ingred {
+    position: absolute;
+    top: 530px;
+    left: 102%;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .dt,
+  .tb {
+    display: none;
+  }
+
+  /*///// banner /////*/
+  .fv-bn {
+    height: 580px;
+    background: url(../imgs/bn.jpg) center;
+  }
+  .fv-bn h2 {
+    margin: 0 auto;
+    padding-top: 350px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    color: #fff;
+    text-transform: uppercase;
+
+    background: #ffffff;
+    background: -webkit-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: -moz-linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    background: linear-gradient(to bottom right, #ffffff 0%, #ffffff 59%, #f772d1 64%, #c872f2 70%, #ffffff 85%, #ffffff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .rotate {
+    position: absolute;
+    left: -110px;
+    top: 340px;
+    transform: rotate(270deg);
+    transform-origin: left;
+  }
+
+  /*///// subtitle /////*/
+  .bn-txt {
+    display: none;
+  }
+
+  /*///// flexSlider /////*/
+  .fv-container {
+    margin: 120px 0;
+  }
+  .fv-info1 {
+    height: 250px;
+    color: #fff;
+    background: url(../imgs/lemon.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info2 {
+    height: 250px;
+    color: #fff;
+    background: url(../imgs/lime.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info3 {
+    height: 250px;
+    color: #fff;
+    background: url(../imgs/coconut.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .fv-info-txt {
+    padding-top: 55px;
+  }
+  .fv-info-txt h5 {
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .fv-info-txt h4 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .fv-info-txt > p {
+    font-size: 12px;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .fv-wrap {
+    margin: 60px auto;
+  }
+  .fv-wrap .rum {
+    width: 106px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .fv-wrap .bg1 {
+    background: url(../imgs/slide-rum1.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg2 {
+    background: url(../imgs/slide-rum2.png) no-repeat center;
+    background-size: cover;
+  }
+  .fv-wrap .bg3 {
+    background: url(../imgs/slide-rum3.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .fv-wrap .right {
+    width: 100%;
+    height: 320px;
+    margin: 150px auto 100px;
+  }
+
+  .fv-wrap .right > p {
+    width: 75%;
+    margin: 20px auto;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .fv-wrap .right .fv-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fv-wrap .right .fv-element li {
+    width: 55px;
+    height: 55px;
+    margin: 10px 10px 5px;
+    padding: 0 auto;
+  }
+
+  .fv-wrap .right .ingred {
+    margin: 10px auto;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+}

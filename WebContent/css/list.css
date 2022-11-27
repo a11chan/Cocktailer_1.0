@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url("sub3_banner.css");
+
+footer {
+	margin-top:120px;
+}
+
+.container {
+	max-width: 720px;
+	padding-top: 120px;
+}
+
+.container h4 {
+	font-size: 42px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+.container>p {
+	margin-bottom: 0;
+}
+
+.container h4 span {
+	color: #f771d1;
+}
+
+.container table tr td a.readNum:hover {
+	color: #f771d1;
+}
+
+.btn-toolbar {
+	margin-bottom: 16px;
+}
+
+.booking {
+	width: 116px;
+	margin-bottom: 8px;
+}
+
+.searchFrm {
+	display: flex;
+	justify-content: center;
+	margin: 8px 0 16px;
+}
+
+.searchFrm .input-group {
+	max-width: 335px;
+}
+
+@media screen and (max-width: 440px) {
+	table th {
+		font-size: 13px;
+	}
+	table td {
+		font-size: 13px;
+	}
+	div.btn-toolbar div.btn-group button {
+		font-size: 13px;
+	}
+	button.booking {
+		font-size: 13px;
+	}
+	form.searchFrm div select {
+		font-size: 13px;
+	}
+	form.searchFrm div input {
+		font-size: 13px;
+	}
+	form.searchFrm button {
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap");
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+/* font-family: 'Gowun Batang', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+/* font-family: 'Paytone One', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* font-family: 'Abril Fatface', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+/* font-family: 'Lora', serif; */
+
+/* ///// reset ///// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #5a5858;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+  font-weight: normal;
+}
+a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  border: 0;
+  outline: none;
+}
+ul li {
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
+:root {
+  --logo-color: #f771d1;
+  --main-color: #332b3b;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+/* font-family: 'Paytone One', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap");
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+/* font-family: 'Gowun Batang', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: var(--main-color);
+  background: #fff;
+}
+.logo {
+  font-family: "Paytone One", sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #332b3b;
+}
+
+:root {
+  --logo-color: #f771d1;
+  --main-color: #332b3b;
+}
