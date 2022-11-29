@@ -146,16 +146,16 @@
 						<div class="inputSet1">
 							<div class="inputSet nickname mb-2">
 								<input type="text" name="name" placeholder="신청자 닉네임(한글 또는 영문)"
-									pattern="^[가-힣a-zA-Z]+$" required class="form-control" />
+									pattern="^[가-힣a-zA-Z]+$" maxlength="20" required class="form-control" />
 							</div>
 							<div class="inputSet mb-2">
-								<input type="tel" name="tel" placeholder="연락처 입력" maxlength="13"
+								<input type="tel" name="tel" placeholder="연락처 입력" maxlength="15"
 									required class="form-control" />
 							</div>
 						</div>
 						<div class="inputSet2">
 							<div class="inputSet party mb-2">
-								<input type="number" min="1" name="participant"
+								<input type="number" min="1" max="50" name="participant"
 									placeholder="참여인원(신청자 포함)" required class="form-control" />
 							</div>
 							<div class="inputSet mb-2">

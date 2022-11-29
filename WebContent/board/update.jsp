@@ -70,15 +70,15 @@
 			</div>
 			<div class="input-group mb-2">
 				<span class="input-group-text">신청인</span>
-				<input type="text" name="name" class="form-control" value="<%=name%>" pattern="^[가-힣a-zA-Z]+$" required>
+				<input type="text" name="name" class="form-control" value="<%=name%>" pattern="^[가-힣a-zA-Z]+$" maxlength="20" required>
 			</div>
 			<div class="input-group mb-2">
 				<span class="input-group-text">연락처</span>
-				<input type="text" name="tel" class="form-control" value="<%=tel%>" maxlength="13" required>
+				<input type="tel" name="tel" class="form-control" value="<%=tel%>" maxlength="15" required>
 			</div>
 			<div class="input-group mb-2">
 				<span class="input-group-text">참여인원</span>
-				<input type="text" name="participant" class="form-control" value="<%=participant%>" min="1" required>
+				<input type="number" name="participant" class="form-control" value="<%=participant%>" min="1" max="50" required>
 			</div>
 			<div class="input-group mb-2">
 				<span class="input-group-text">방문일</span>
@@ -110,7 +110,7 @@
 			<div class="btnSet d-flex justify-content-center">
 				<input type="button" value="이전화면" onClick="history.go(-1)" class="btn btn-secondary me-2">
 				<input type="reset" value="원래대로" class="btn btn-secondary me-2">
-				<input type="button" value="수정완료" onClick="check( )" class="btn btn-secondary">
+				<input type="submit" value="수정완료" onClick="check( )" class="btn btn-secondary">
 			</div>
 		</form>
 	</div>

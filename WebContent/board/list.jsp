@@ -86,8 +86,7 @@
     listSize = vlist.size(); // 화면에 보여질 게시물 개수
     if (vlist.isEmpty()) {
       out.println("등록된 게시물이 없습니다.");
-    } else {
-  %>
+    } else { %>
   <table class="table table-striped table-hover text-center">
     <thead>
     <tr>
@@ -109,13 +108,15 @@
         int participant = boardDto.getParticipant();
         String visit_date = boardDto.getVisit_date();
         String state = boardDto.getState();
+
+
     %>
     <tr>
       <td><%=totalPosting - ((nowPage - 1) * postingListSize) - i%>
       </td>
       <td><a href="<c:url value='/board/readPass.jsp'/><%=queryString + no%>" class="readNum"><%=event_type%>
       </a></td>
-      <td><%=name%>
+      <td><%=name.replaceAll("(?i)<(/?script[^>]*)>", "&lt;&gt;")%>
       </td>
       <td><%=visit_date%>
       </td>
@@ -123,7 +124,7 @@
       </td>
     </tr>
     <%}%>
-    <%}%>
+  <%}%>
   </table>
 
   <% if (totalNaviPages != 0) { %>
@@ -188,7 +189,6 @@
 <div class="clear"></div>
 
 <%@ include file="../includes/footer.jsp" %>
-
 
 <script>
   function check() { // 검색함수
