@@ -70,7 +70,7 @@
 			</div>
 			<div class="input-group mb-2">
 				<span class="input-group-text">신청인</span>
-				<input type="text" name="name" class="form-control" value="<%=name%>" pattern="^[가-힣a-zA-Z]+$" maxlength="20" required>
+				<input type="text" name="name" class="form-control" value="<c:out value='<%=name%>'/>" pattern="^[가-힣a-zA-Z]+$" maxlength="20" required>
 			</div>
 			<div class="input-group mb-2">
 				<span class="input-group-text">연락처</span>

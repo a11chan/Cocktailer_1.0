@@ -84,6 +84,10 @@
     vlist = bMgr.getBoardList(keyField, keyword, (nowPage - 1) * postingListSize, postingListSize);
     // start~end 페이지 번호만큼 게시물 출력
     listSize = vlist.size(); // 화면에 보여질 게시물 개수
+
+    pageContext.setAttribute("vlist",vlist);
+    pageContext.setAttribute("listSize",listSize);
+
     if (vlist.isEmpty()) {
       out.println("등록된 게시물이 없습니다.");
     } else { %>
@@ -108,16 +112,13 @@
         int participant = boardDto.getParticipant();
         String visit_date = boardDto.getVisit_date();
         String state = boardDto.getState();
-
-
     %>
     <tr>
       <td><%=totalPosting - ((nowPage - 1) * postingListSize) - i%>
       </td>
       <td><a href="<c:url value='/board/readPass.jsp'/><%=queryString + no%>" class="readNum"><%=event_type%>
       </a></td>
-      <td><%=name.replaceAll("(?i)<(/?script[^>]*)>", "&lt;&gt;")%>
-      </td>
+      <td><c:out value="<%=name%>"/></td>
       <td><%=visit_date%>
       </td>
       <td><%=state%>
@@ -189,6 +190,7 @@
 <div class="clear"></div>
 
 <%@ include file="../includes/footer.jsp" %>
+
 
 <script>
   function check() { // 검색함수

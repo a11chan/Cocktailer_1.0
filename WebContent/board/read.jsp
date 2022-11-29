@@ -76,7 +76,7 @@
   </div>
   <div class="input-group mb-2">
     <span class="input-group-text">신청인</span>
-    <input type="text" class="form-control" value="<%=name%>" disabled>
+    <input type="text" class="form-control" value="<c:out value='<%=name%>'/>" disabled>
   </div>
   <div class="input-group mb-2">
     <span class="input-group-text">연락처</span>
