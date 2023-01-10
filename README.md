@@ -1,6 +1,6 @@
 # COCKTAILER
 >럼 소개 및 칵테일 관련 체험행사 예약 사이트  
->http://43.200.5.248:8080/cocktailer/  
+>http://3.35.27.188:8080/cocktailer/  
 
 </br>
 
