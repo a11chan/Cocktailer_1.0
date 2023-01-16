@@ -450,7 +450,7 @@ function readyAlert( ) {
 </br>
 
 
-## 프로젝트 규모
+## 개발 규모
 ![](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6ba59ab1-e73a-4b71-a9e5-ed24cd54c7da%2FUntitled.png?table=block&id=29d40b66-55ca-42bf-83c2-7159409e56a8&spaceId=d45b6527-cc9f-4af9-b7e8-975463d8b2e5&width=2000&userId=504d5d0d-ce4c-40f0-8ccd-2a8fd23e22dc&cache=v2)
 
 </br>
