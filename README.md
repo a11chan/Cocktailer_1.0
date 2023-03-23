@@ -430,13 +430,14 @@ function readyAlert( ) {
 
 ## 프로젝트 담당 영역
 #### `3차 이후`
-* 팀원 진로변경(백엔드→프론트엔드)에 따른 개인프로젝트로 전환
+* 팀원 진로변경(백엔드→프론트엔드)에 따른 1인 프로젝트로 전환
 * JSP Model 1 구조로 [예약 게시판 및 관리자 페이지 구현](https://github.com/a11chan/cocktailer_1.0/tree/master/WebContent/board)
 * [오프라인 행사 예약 입력 폼](https://github.com/a11chan/cocktailer_1.0/blob/master/WebContent/sub3.jsp)
 * 기존 코드 최적화 및 AWS 배포
 
 #### `1차 ~ 2차`
 * [맛과 향으로 상품을 분류하는 필터 기능 구현](https://github.com/a11chan/cocktailer_1.0/blob/master/WebContent/sub1.jsp)
+* 디자인 통일성 준수를 위한 UI 색상 가이드 제안 및 적용
 * 본인 포함 총 4인 진행
 
 </br>
