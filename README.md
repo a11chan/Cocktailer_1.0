@@ -12,7 +12,7 @@
 ## 주요 코드
 <details>
 <summary>
-jQuery를 활용한 Taste Filter 구현  
+맛과 향으로 상품 필터링
 </summary>
 <div markdown="1">
   <img src="https://user-images.githubusercontent.com/85478918/154827446-14fdfecf-bd54-488c-8d38-eda1e770a6f6.gif" style="width:400px"/>
@@ -430,8 +430,8 @@ function readyAlert( ) {
 ## 프로젝트 담당 영역
 #### `3차 이후`
 * 팀원 진로변경(백엔드→프론트엔드)에 따른 개인프로젝트로 전환
+* JSP Model1 구조로 예약 게시판 및 관리자 페이지 구현
 * EXPERIENCES(sub3.jsp) 중 입력 폼
-* 예약 게시판 및 관리자 페이지
 * 기존 코드 최적화 및 AWS 배포
 
 #### `1차 ~ 2차`
