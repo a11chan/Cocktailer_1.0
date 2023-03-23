@@ -431,11 +431,11 @@ function readyAlert( ) {
 #### `3차 이후`
 * 팀원 진로변경(백엔드→프론트엔드)에 따른 개인프로젝트로 전환
 * JSP Model 1 구조로 예약 게시판 및 관리자 페이지 구현
-* EXPERIENCES(sub3.jsp) 중 입력 폼
+* [EXPERIENCES(sub3.jsp)](https://github.com/a11chan/cocktailer_1.0/blob/master/WebContent/sub3.jsp) 중 입력 폼
 * 기존 코드 최적화 및 AWS 배포
 
 #### `1차 ~ 2차`
-* OUR RUMS(sub1.jsp)
+* [OUR RUMS(sub1.jsp)](https://github.com/a11chan/cocktailer_1.0/blob/master/WebContent/sub1.jsp)
 * 본인 포함 총 4인 진행
 
 </br>
