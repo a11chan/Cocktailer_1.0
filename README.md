@@ -472,3 +472,9 @@ function readyAlert( ) {
 * Eclipse 2021-09 4.21.0
 * VS CODE 1.74.2
 * Windows 10 Pro
+
+</br>
+
+## 향후 계획
+* Spring Boot, JPA 프로젝트로 전환  
+* JavaScript, CSS 최적화
