@@ -75,7 +75,7 @@
 		<form name="passFrm" method="post" action="<c:url value='/board/readPass.jsp'/>">
 			<div class="input-group end">
 				<span class="input-group-text">비밀번호</span>
-				<input type="password" name="pwd" placeholder="신청서 작성시 비밀번호 입력" class="form-control">
+				<input type="password" name="pwd" minlength="4" maxlength="8" placeholder="신청서 작성시 비밀번호 입력" class="form-control">
 			</div>
 			<div class="btnSet d-flex justify-content-center">
 				<input type="button" value="이전화면" onClick="history.go(-1)" class="btn btn-secondary me-2">

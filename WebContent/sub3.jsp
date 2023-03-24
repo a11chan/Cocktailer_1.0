@@ -129,7 +129,7 @@
 						</div>
 					</div>
 
-					<form class="app-form" method="post" action="<c:url value='/board/postProc.jsp'/>">
+					<form name="appForm" class="app-form" method="post" action="<c:url value='/board/postProc.jsp'/>">
 
 						<div class="radioBox btn-group mb-2">
 							<input type="radio" name="event_type" id="cClass" value="칵테일 클래스"
@@ -175,7 +175,7 @@
 							onClick="javascript:location.href='<c:url value=
 "/board/list.jsp"/>'" class="btn btn-secondary">
 							<input type="reset" value="원래대로" class="btn btn-secondary" />
-							<input type="submit" value="신청하기" class="btn btn-dark" />
+							<input type="submit" onClick="check( )" value="신청하기" class="btn btn-dark" />
 						</div>
 					</form>
 				</div>
@@ -186,6 +186,6 @@
 	<div class="clear"></div>
 
 	<%@ include file="./includes/footer.jsp"%>
-	
+
 	</body>
 </html>

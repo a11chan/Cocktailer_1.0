@@ -4,8 +4,8 @@
 	<footer>
 		<div class="footerleft pc">
 			<h6>칵테일러</h6>
-			<p>김대표 | 광주 북구 경양로 170 | tel. 062-123-4567 fax.062-123-4568 |
-				cocktailer@naver.com</p>
+			<p>올찬 | 광주광역시 북구  | tel. 062-123-4567 fax.062-890-1234 |
+				tm_allchan@naver.com</p>
 		</div>
 		<div class="footerleft tb">
 			<h6>칵테일러</h6>

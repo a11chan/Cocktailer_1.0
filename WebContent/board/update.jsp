@@ -39,6 +39,10 @@
 
 <script>
 	function check( ) {
+		if(document.updateFrm.participant.value < 0 || document.updateFrm.participant.value > 50 ) {
+			alert("참여 인원 수는 1부터 50명 이내로 입력해주세요.")
+			return false;
+		}
 		if (document.updateFrm.pwd.value == "") {
 			alert("수정을 위해 비밀번호를 입력하세요.");
 			document.updateFrm.pwd.focus( );

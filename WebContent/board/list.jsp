@@ -33,6 +33,7 @@
 
   String encKeyword = URLEncoder.encode(keyword, "UTF-8");
   String queryString = "?nowPage=" + nowPage + "&keyField=" + keyField + "&keyword=" + encKeyword + "&no=";
+  String queryString2 = "?keyField=" + keyField + "&keyword=" + encKeyword + "&nowPage=";
 
   // 페이징 처리를 위한 계산
   totalPosting = bMgr.getTotalCount(keyField, keyword);
@@ -133,20 +134,20 @@
     <div class="btn-group">
       <% if (showPrev) { %>
       <button type="button" class="btn btn-outline-secondary"
-              onClick="location.href='<c:url value="/board/list.jsp?nowPage="/><%=beginNaviPage - 1%>'"
+              onClick="location.href='<c:url value="/board/list.jsp"/><%=queryString2%><%=beginNaviPage - 1%>'"
               style="padding-top:3px">&laquo;
       </button>
       <% } %>
 
       <% for (; beginNaviPage <= endNaviPage; beginNaviPage++) { %>
       <button type="button" class="btn btn-outline-secondary <% if(beginNaviPage == nowPage) {%> active <%}%>"
-              onClick="location.href='<c:url value="/board/list.jsp?nowPage="/><%=beginNaviPage%>'"><%=beginNaviPage%>
+              onClick="location.href='<c:url value="/board/list.jsp"/><%=queryString2%><%=beginNaviPage%>'"><%=beginNaviPage%>
       </button>
       <% } %>
 
       <% if (showNext) { %>
       <button type="button" class="btn btn-outline-secondary"
-              onClick="location.href='<c:url value="/board/list.jsp?nowPage="/><%=endNaviPage + 1%>'"
+              onClick="location.href='<c:url value="/board/list.jsp"/><%=queryString2%><%=endNaviPage + 1%>'"
               style="padding-top:3px">&raquo;
       </button>
       <% } %>
@@ -173,7 +174,7 @@
         <option value="state">처리상태</option>
       </select>
       <input type="text" name="keyword" placeholder="검색어 입력"
-             class="form-control w-50">
+             class="form-control w-50" >
       <button type="button" class="btn btn-secondary" onClick="javascript:check( )">찾기</button>
     </div>
     <input type="hidden" name="nowPage" value="1">
