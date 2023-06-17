@@ -1,6 +1,7 @@
 # COCKTAILER
 > #### 개요
 > * 럼 소개 및 칵테일 관련 체험행사 예약 사이트  
+> * https://bit.ly/3XcqtfU
 > #### 개발 배경
 >* 편의성 제공 : 맛과 향으로 원하는 상품 선택 가능
 >* 제품 홍보 : 칵테일 클래스, 공장 투어, 시음회 참여 게시판 운영
@@ -200,7 +201,7 @@ function readyAlert( ) {
 
 <img src="https://user-images.githubusercontent.com/85478918/154832049-183a8cd5-b0cc-4f21-a2a9-60910f9e991a.gif" style="width:400px"/>
 
-* 관리자 비밀번호(P@ssw@rd) 입력 시 조회/수정 가능  
+* 관리자 비밀번호(P@ssw0rd) 입력 시 조회/수정 가능  
 * [게시판 전체 코드 링크](https://github.com/a11chan/cocktailer_1.0/tree/master/WebContent/board)
 
 </br>
