@@ -70,7 +70,7 @@
 <summary>그 외 이슈</summary>
 <div markdown="1">
 
-Notion 저장소: https://bit.ly/46j0MhQ
+* Notion 저장소: https://bit.ly/46j0MhQ
 
 </div>
 </details>
