@@ -80,8 +80,8 @@ Notion 저장소: https://bit.ly/46j0MhQ
 <div markdown="1">
   <img src="https://user-images.githubusercontent.com/85478918/154827446-14fdfecf-bd54-488c-8d38-eda1e770a6f6.gif" style="width:400px"/>
 
-* 뷰 페이지(sub1.jsp): https://bit.ly/46mUvC3
-* 필터링 로직(sub1.js): https://bit.ly/3pbZ2GJ
+* 뷰 페이지 코드(sub1.jsp): https://bit.ly/46mUvC3
+* 필터링 로직 코드(sub1.js): https://bit.ly/3pbZ2GJ
 
 </div>
 </details>
@@ -93,8 +93,8 @@ Notion 저장소: https://bit.ly/46j0MhQ
 <img src="https://user-images.githubusercontent.com/85478918/154832049-183a8cd5-b0cc-4f21-a2a9-60910f9e991a.gif" style="width:400px"/>
 
 * 관리자 비밀번호(P@ssw0rd) 입력 시 조회/수정 가능  
-* 뷰 페이지(list.jsp): https://bit.ly/3pk5fQQ
-* DB 접근 로직(BoardMgr.java): https://bit.ly/3CGm9wa
+* 뷰 페이지 코드(list.jsp): https://bit.ly/3pk5fQQ
+* DB 접근 로직 코드(BoardMgr.java): https://bit.ly/3CGm9wa
 
 </div>
 </details>
